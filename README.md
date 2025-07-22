@@ -29,10 +29,5 @@ Una rutina diaria interactiva inspirada en Pomodoros, diseñada para balancear p
 
 ---
 
-## 🎵 Cambiar música de fondo
+## 🎵 Cambiar música de fondo >> Chopin - Spring Waltz (Mariage d'Amour) <<
 
-1. Sube tu archivo como `fondo.mp3` en la raíz del proyecto.
-2. En el código, reemplaza la línea del audio:
-
-```html
-<audio id="musicBackground" src="fondo.mp3" autoplay loop></audio>
