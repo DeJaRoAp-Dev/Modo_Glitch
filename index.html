@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Modo Glitch — Rutina Extendida</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌀 Modo Glitch — Rutina Extendida</h1>
+  <button id="activateBtn">Activar Glitch 🔧</button>
+  <button id="resetBtn">Restablecer Rutina</button>
+  <ul id="rutinaLista"></ul>
+  <h2>📊 Mutaciones activas: <span id="stats">0</span></h2>
+
+  <div id="addRoutineContainer" style="margin-bottom: 1rem;">
+    <input type="time" id="newHora" placeholder="HH:MM" value="09:00" style="padding: 0.4rem; margin-right: 0.5rem; font-family: 'Courier New', monospace; font-size: 1rem; background: black; color: #39ff14; border: 1px solid #39ff14;"/>
+    <input type="text" id="newTarea" placeholder="Nueva tarea" style="padding: 0.4rem; margin-right: 0.5rem; font-family: 'Courier New', monospace; font-size: 1rem; background: black; color: #39ff14; border: 1px solid #39ff14; width: 40%;"/>
+    <button id="addBtn">Agregar</button>
+  </div>
+
+  <audio id="glitchSound" src="https://upload.wikimedia.org/wikipedia/commons/0/00/Error.mp3" preload="auto"></audio>
+  <audio id="musicBackground" src="fondo.mp3" autoplay loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
